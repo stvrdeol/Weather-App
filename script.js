@@ -26,7 +26,7 @@ function userInput() {
 
 // getting search results
 async function gettingSearchResults() {
-  const url = `http://api.weatherapi.com/v1/search.json?key=520e9e98cb9446d4b2485659231601&q=${userInput()}`;
+  const url = `https://api.weatherapi.com/v1/search.json?key=520e9e98cb9446d4b2485659231601&q=${userInput()}`;
   const response = await fetch(url);
   const data = await response.json();
   return data;
@@ -66,7 +66,7 @@ function liTextToInputValue() {
 const searchBtn = document.querySelector("button");
 
 async function gettingWeatherData() {
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=520e9e98cb9446d4b2485659231601&q=${
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=520e9e98cb9446d4b2485659231601&q=${
     userInput() || storedLocation || "london"
   }&days=1&aqi=no&alerts=no`;
   const response = await fetch(url);
