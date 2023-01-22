@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pngwing.com.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/fa332f2ba8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <form action="">
+            <input type="text" placeholder="search for cities" required data-input="">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <!-- <template data-search-template>
+            <li data-city-name></li>
+        </template> -->
+        <ul data-search-results>
+        </ul>
+    </header>
+    <div class="animation">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <main>
+        <div class="current-info" data-current-info-div>
+            <div class="left">
+                <h1></h1>
+                <!-- <div class="container">
+                    <div class="conditions">
+                        <p>max-temp :</p>
+                        <p>min-temp :</p>
+                        <p>sunrise :</p>
+                        <p>sunset :</p>
+                    </div>
+                    <div class="result">
+                        <p>32</p>
+                        <p>44</p>
+                        <p>5:25</p>
+                        <p>6:20</p>
+                    </div>
+                </div> -->
+                <p class="big-font" data-current-temp></span></p>
+            </div>
+            <div class="right">
+                <img src="" alt="" class="large-img">
+                <p class="weather-condition big-font"></p>
+            </div>
+        </div>
+        <h3>Today's Conditions</h3>
+        <div class="today-conditions">
+            <div class="min-temp">
+                <p class="condition">Min-Temp</p>
+                <p class="value">--<span>&deg; C</span></p>
+            </div>
+            <div class="max-temp">
+                <p class="condition">Max-Temp</p>
+                <p class="value">--<span>&deg; C</span></p>
+            </div>
+            <div class="rain">
+                <p class="condition">Rain</p>
+                <p class="value">--<span>%</span></p>
+            </div>
+            <div class="sunrise">
+                <p class="condition">sunrise</p>
+                <p class="value">--</p>
+            </div>
+            <div class="sunset">
+                <p class="condition">sunset</p>
+                <p class="value">--</p>
+            </div>
+            <div class="wind">
+                <p class="condition">Wind Speed</p>
+                <p class="value">--<span>km/h</span></p>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="three-day-forecast">
+            <p>3-Day Forecast</p>
+            <div class="row">
+                <div class="day">
+                    <p class="day-name">Today</p>
+                    <img src="pngwing.com.png" alt="" class="small-img">
+                    <p class="temperature">25<span>&deg;</span></p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Today</p>
+                    <img src="pngwing.com.png" alt="" class="small-img">
+                    <p class="temperature">25<span>&deg;</span></p>
+                </div>
+                <div class="day">
+                    <p class="day-name">Today</p>
+                    <img src="pngwing.com.png" alt="" class="small-img">
+                    <p class="temperature">25<span>&deg;</span></p>
+                </div> -->
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
