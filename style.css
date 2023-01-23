@@ -292,6 +292,9 @@ ul li:hover {
     html {
         font-size: 80%;
     }
+    .big-font{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width:850px) {
