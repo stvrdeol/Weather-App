@@ -46,7 +46,7 @@ img {
 }
 
 .large-img {
-    width: 100%;
+    width: 80%;
 }
 
 .hide {
@@ -139,6 +139,7 @@ ul li:hover {
 .current-info .right {
     flex: 1;
     display: grid;
+    text-align: center;
     grid-template-rows: 1fr max-content;
     justify-content: center;
     align-items: center;
