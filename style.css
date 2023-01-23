@@ -124,6 +124,7 @@ ul li:hover {
     margin: 3rem 0;
     /* padding: 2rem; */
     height: 15rem;
+    text-align: center;
 }
 
 .current-info .left {
